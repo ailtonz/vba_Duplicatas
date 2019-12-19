@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Tipo Modelo="Duplicata">
+	<Item Legenda="Natureza da Operação">
+		<Campo>NaturezaDeOperacao</Campo>
+		<Posicao>I3</Posicao>
+	</Item>
+	<Item Legenda="Via de Transporte">
+		<Campo>'---</Campo>
+		<Posicao>I4</Posicao>
+	</Item>
+	<Item Legenda="Data da Emissão">
+		<Campo>DataDeEmissao</Campo>
+		<Posicao>I5</Posicao>
+	</Item>
+	<Item Legenda="Valor - Nota Fiscal">
+		<Campo>ValorTotalDaNota</Campo>
+		<Posicao>A8</Posicao>
+	</Item>		
+	<Item Legenda="Numero - Nota Fiscal">
+		<Campo>Fatura_NF</Campo>
+		<Posicao>C8</Posicao>
+	</Item>		
+	<Item Legenda="Valor - Duplicata">
+		<Campo>Fatura_Valor</Campo>
+		<Posicao>E8</Posicao>
+	</Item>			
+	<Item Legenda="Numero - Duplicata">
+		<Campo>Fatura_NF</Campo>
+		<Posicao>G8</Posicao>
+	</Item>		
+	<Item Legenda="Vencimento">
+		<Campo>Fatura_Vencimento</Campo>
+		<Posicao>I8</Posicao>
+	</Item>			
+	<Item Legenda="Desconto de">
+		<Campo>'---</Campo>
+		<Posicao>D9</Posicao>
+	</Item>		
+	<Item Legenda="% sobre R$">
+		<Campo>'---</Campo>
+		<Posicao>F9</Posicao>
+	</Item>			
+	<Item Legenda="Até">
+		<Campo>'---</Campo>
+		<Posicao>I9</Posicao>
+	</Item>	
+	<Item Legenda="Condições especiais">
+		<Campo>'---</Campo>
+		<Posicao>E10</Posicao>
+	</Item>			
+	<Item Legenda="Nome do Sacado">
+		<Campo>Cliente</Campo>
+		<Posicao>E11</Posicao>
+	</Item>	
+	<Item Legenda="Vendedor">
+		<Campo>'---</Campo>
+		<Posicao>M11</Posicao>
+	</Item>			
+	<Item Legenda="Endereço">
+		<Campo>Endereco</Campo>
+		<Posicao>D12</Posicao>
+	</Item>				
+	<Item Legenda="CEP">
+		<Campo>Cep</Campo>
+		<Posicao>J12</Posicao>
+	</Item>			
+	<Item Legenda="Municipio">
+		<Campo>Municipio</Campo>
+		<Posicao>D13</Posicao>
+	</Item>			
+	<Item Legenda="Estado">
+		<Campo>Estado</Campo>
+		<Posicao>I13</Posicao>
+	</Item>			
+	<Item Legenda="S/ Pedido No">
+		<Campo>'---</Campo>
+		<Posicao>M13</Posicao>
+	</Item>			
+	<Item Legenda="Praça de Pagamento">
+		<Campo>'São Paulo - Capital</Campo>
+		<Posicao>E14</Posicao>
+	</Item>			
+	<Item Legenda="CNPJ">
+		<Campo>CNPJ_CPF</Campo>
+		<Posicao>D15</Posicao>
+	</Item>			
+	<Item Legenda="Inscr. Est. No">
+		<Campo>RG_IE</Campo>
+		<Posicao>H15</Posicao>
+	</Item>			
+	<Item Legenda="N/ Pedido No">
+		<Campo>Fatura_Pedido</Campo>
+		<Posicao>M15</Posicao>
+	</Item>
+	<Item Legenda="VALOR POR EXTENSO">
+		<Campo>#EXTENSO</Campo>
+		<Posicao>E16</Posicao>
+		<Valor>Fatura_Valor</Valor>
+	</Item>						
+</Tipo>
